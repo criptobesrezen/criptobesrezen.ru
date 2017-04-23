@@ -1,0 +1,106 @@
+
+* { /*  * - используется для всего что есть на сайте.  */
+  font-family: 'Lato', sans-serif;
+  margin: 0; /* margin: 0; = margin: 0 0 0 0;
+  margin: 10px 5px 7px; = margin: 10px 5px 7px 5px; */
+}
+
+.main-header {
+  background: #191919;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer {
+  background: #191919;
+  margin: 0;
+  padding: 0;
+  color: #888;
+}
+
+.footer-section {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+}
+
+.copyright a {
+    color: #888;
+}
+
+.copyright a:hover {
+  color: #c7c7c7;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.telephone {
+  font-weight: 400; /* Вес шрифта Thin = 100, Regular = 400, Bold = 700*/
+  font-size: 24px; /* px = pt */
+  color: #FFFFFF; /* Цвет текста
+  color: #ABC; = color: #AABBCC; */
+}
+
+.social-facebook {
+  color: #FFF;
+}
+
+.main-section {
+  display: flex;
+  flex-flow: row nowrap; /*
+  flex-direction: row;
+  flex-wrap: nowrap; */
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  color: #FFF;
+  font-size: 19px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  color: #c7c6c6;
+}
+
+.main-content {
+  background: #191919;
+}
+.content {
+  width: auto;
+}
+a {
+  text-decoration: none;
+}
+.content h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.content p {
+  text-decoration: none;
+  color: #888888;
+}
+
+.content p:hover {
+  color: #edecec;
+}
