@@ -74,6 +74,10 @@
   color: #c7c6c6;
 }
 
+.content-slider {
+  background-size: 666px auto;
+}
+
 .main-content {
   background: #191919;
   background-image: url(../images/back-content.jpg);
