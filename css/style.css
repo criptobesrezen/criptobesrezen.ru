@@ -75,7 +75,8 @@
 }
 
 .content-slider {
-  background-size: 666px auto;
+  width: auto;
+  height: 666px;
 }
 
 .main-content {
