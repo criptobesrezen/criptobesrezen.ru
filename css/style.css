@@ -76,7 +76,7 @@
 
 .main-content {
   background: #191919;
-  background-image: url(./images/back-content.jpg);
+  background-image: url(../images/back-content.jpg);
 }
 .content {
   display: flex;
