@@ -125,8 +125,8 @@ a {
 .footer {
   background: #191919;
   margin: 0;
-  padding: 36px 0 200px 0;
-  height: 450px;
+  padding: 36px 0 0 0;
+  height: 300px;
   transform: skewY(-3.6deg);
   position: relative;
   z-index: 1000;
