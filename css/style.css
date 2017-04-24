@@ -130,6 +130,7 @@ a {
   color: #888;
   transform: skewY(-3.6deg);
   position: relative;
+  z-index: 1000;
 }
 
 .footer-section {
