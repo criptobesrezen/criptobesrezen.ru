@@ -122,12 +122,11 @@ a {
   color: #edecec;
 }
 
-.main-footer {
+.footer {
   background: #191919;
   margin: 0;
   padding: 36px 0 200px 0;
-  height: 150px;
-  color: #888;
+  height: 450px;
   transform: skewY(-3.6deg);
   position: relative;
   z-index: 1000;
@@ -137,6 +136,8 @@ a {
   display: flex;
   flex-flow: nowrap row;
   justify-content: space-between;
+  align-items: center;
+  color: #888;
   transform: skewY(+3.6deg);
   padding: 36px 0 0 0;
 }
