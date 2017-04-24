@@ -123,13 +123,17 @@ a {
 }
 
 .footer {
-  background: #191919;
-  margin: 0;
-  padding: 36px 0 0 0;
   height: 300px;
+  overflow: hidden;
+}
+
+.main-footer {
   transform: skewY(-3.6deg);
   position: relative;
   z-index: 1000;
+  background: #191919;
+  padding: 36px 0 0 0;
+  height: 450px;
 }
 
 .footer-section {
