@@ -48,17 +48,19 @@
 }
 
 .slider {
-  position: relative;
-  z-index: 998;
-  overflow: hidden;
+  padding-top: 81px;
 }
 
 .slider__item {
-
+  position: relative;
+  z-index: 998;
+  overflow: hidden;
+  transform: skewY(-3.6deg);
 }
 
 .slider__img {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  transform: skewY(3.6deg);
 }
