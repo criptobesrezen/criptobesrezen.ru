@@ -20,22 +20,33 @@
 .header__section {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: center;
   padding: 36px 0;
+  justify-content: space-between;
 }
 
 .header__telephone {
   font-weight: 400;
   font-size: 24px;
   color: #FFF;
+
+}
+
+.header__logo {
+
+}
+
+.header__socials {
+
 }
 
 .menu {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  width: 950px;
   padding-bottom: 81px;
+  margin: 0 auto;
 }
 
 .menu__item {
