@@ -33,7 +33,7 @@
 }
 
 .header__logo {
-
+  margin-left: -130px;
 }
 
 .header__socials {
@@ -61,6 +61,8 @@
   color: #c7c6c6;
 }
 
+/* Слайдер */
+
 .slider {
   position: relative;
   z-index: 2;
@@ -74,4 +76,162 @@
   transform: skewY(3.6deg);
   top: -60px;
   position: relative;
+}
+
+/* Интро */
+
+.intro {
+  background: #191919;
+  background-image: url(../images/back-content.jpg);
+  position: relative;
+  z-index: 999;
+  transform: skewY(+3.6deg);
+  height: 500px;
+}
+
+.intro__inside {
+  display: flex;
+  margin: 0 -15px;
+  transform: skewY(-3.6deg);
+}
+
+.intro__box {
+  width: 50%;
+  padding: 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.intro__block {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+}
+
+.intro__heading-bold {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  color: #FFF;
+}
+
+.intro__heading-thin {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 48px;
+  color: #FFF;
+}
+
+.intro__paragraph {
+  text-decoration: none;
+  color: #888;
+  font-size: 15px;
+}
+
+.intro__link {
+  text-decoration: none;
+  color: #d2d2d2;
+  font-size: 15px;
+}
+
+.intro__link:hover {
+  color: #edecec;
+}
+
+.intro__img {
+  width: 180px;
+  padding-right: 10px;
+}
+
+/* Artists */
+
+.artists {
+  height: 666px;
+  background: #FFF;
+  transform: skewY(-3.6deg);
+  position: relative;
+  z-index: 990;
+}
+
+.artists__inside {
+  transform: skewY(3.6deg);
+  display: flex;
+  justify-content: space-between;
+}
+
+.artists__box {
+  text-align: justify;
+  padding-right: 36px;
+}
+
+.artists__img {
+  width: 500px;
+  height: 500px;
+}
+
+.artists__heading-bold {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  color: #191919;
+}
+
+.artists__heading-thin {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 48px;
+  color: #191919;
+}
+
+.artists__paragraph {
+  text-decoration: none;
+  color: #888;
+  font-size: 15px;
+}
+
+.artists__link {
+
+}
+
+.intro__link:hover {
+}
+
+
+/* Подвал */
+
+.footer {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  top: -60px;
+}
+
+.footer__inside {
+  position: relative;
+  z-index: 980;
+  background: #191919;
+  padding-top: 72px;
+  height: 450px;
+}
+
+.footer__section {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  color: #888;
+  padding: 36px 0 0 0;
+}
+
+.footer__copyright {
+  text-align: justify;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #888;
+}
+
+.footer__link:hover {
+  color: #c7c7c7;
 }
