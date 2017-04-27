@@ -108,6 +108,10 @@
   justify-content: space-between;
 }
 
+.intro__item {
+  text-decoration: none;
+}
+
 .intro__heading-bold {
   text-transform: uppercase;
   font-weight: 700;
@@ -146,27 +150,41 @@
 /* Artists */
 
 .artists {
-  height: 666px;
+  height: 780px;
   background: #FFF;
   transform: skewY(-3.6deg);
   position: relative;
   z-index: 990;
+  overflow: hidden;
 }
 
 .artists__inside {
   transform: skewY(3.6deg);
-  display: flex;
   justify-content: space-between;
 }
 
 .artists__box {
   text-align: justify;
-  padding-right: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.artists__block {
+  width: 50%;
+  padding: -40px 15px;
+}
+
+.artists__item {
 }
 
 .artists__img {
-  width: 500px;
-  height: 500px;
+  width: 585px;
+  height: 585px;
+}
+
+.artists__img--thumbnail {
+  width: 234px;
+  height: 234px;
 }
 
 .artists__heading-bold {
@@ -187,6 +205,7 @@
   text-decoration: none;
   color: #888;
   font-size: 15px;
+  padding-right: 36px;
 }
 
 .artists__link {
