@@ -114,7 +114,7 @@
 
 .intro__heading-bold {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 48px;
   color: #FFF;
 }
@@ -152,14 +152,12 @@
 .artists {
   height: 780px;
   background: #FFF;
-  transform: skewY(-3.6deg);
   position: relative;
   z-index: 990;
   overflow: hidden;
 }
 
 .artists__inside {
-  transform: skewY(3.6deg);
   justify-content: space-between;
 }
 
@@ -188,7 +186,7 @@
 
 .artists__heading-bold {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 48px;
   color: #191919;
 }
@@ -222,32 +220,98 @@
 .artists__link:hover {
 
 }
+/* Testimonials */
 
+.testimonials {
+  background-color: #191919;
+  transform: skewY(-3.6deg);
+  position: relative;
+  z-index: 999;
+  margin-top: -40px;
+}
+
+.testimonials__inside {
+  transform: skewY(3.6deg);
+  padding: 170px 0;
+  text-align: center;
+}
+
+.testimonials__heading-bold {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFF;
+}
+
+.testimonials__heading-thin {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #FFF;
+  font-weight: 200;
+}
+
+.testimonials__heading-italic {
+  font-size: 48px;
+  font-family: 'Great Vibes', cursive;
+  color: #888;
+}
+
+.testimonials__paragraph {
+  color: #888;
+}
+
+/* Gallery */
+
+.gallery {
+  height: 666px;
+  position: relative;
+  z-index: 400;
+  margin-top: -40px;
+}
+/* Блог */
+
+.blog {
+  background-color: #191919;
+  transform: skewY(3.6deg);
+  height: 666px;
+  position: relative;
+  z-index: 999;
+  margin-top: -40px;
+}
+
+/* Контакты */
+
+.contact-us {
+  height: 666px;
+  position: relative;
+  z-index: 400;
+  margin-top: -40px;
+}
 
 /* Подвал */
 
 .footer {
-  height: 300px;
-  overflow: hidden;
   position: relative;
-  top: -60px;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
 }
 
 .footer__inside {
+  transform: skewY(-3.6deg);
   position: relative;
-  z-index: 980;
   background: #191919;
-  padding-top: 72px;
-  height: 450px;
+  bottom: -80px;
 }
 
 .footer__section {
+  transform: skewY(3.6deg);
   display: flex;
   flex-flow: nowrap row;
   justify-content: space-between;
   align-items: center;
   color: #888;
-  padding: 36px 0 0 0;
+  padding: 70px 0 100px 0;
 }
 
 .footer__copyright {
