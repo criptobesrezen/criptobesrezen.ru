@@ -1,38 +1,32 @@
 /* Подвал */
-
 .footer {
   position: relative;
   z-index: 2;
   width: 100%;
   overflow: hidden;
-}
-
-.footer__inside {
-  transform: skewY(-3.6deg);
-  position: relative;
-  background: #191919;
-  bottom: -80px;
-}
-
-.footer__section {
-  transform: skewY(3.6deg);
-  display: flex;
-  flex-flow: nowrap row;
-  justify-content: space-between;
-  align-items: center;
-  color: #888;
-  padding: 70px 0 100px 0;
-}
-
-.footer__copyright {
-  text-align: justify;
-}
-
-.footer__link {
-  text-decoration: none;
-  color: #888;
-}
-
-.footer__link:hover {
-  color: #c7c7c7;
+  &__inside {
+    transform: skewY(-3.6deg);
+    position: relative;
+    background: #191919;
+    bottom: -80px;
+  }
+  &__section {
+    transform: skewY(3.6deg);
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    color: #888;
+    padding: 70px 0 100px 0;
+  }
+  &__copyright {
+    text-align: justify;
+  }
+  &__link {
+    text-decoration: none;
+    color: #888;
+  }
+  &__link:hover {
+    color: #c7c7c7;
+  }
 }
