@@ -221,6 +221,7 @@
 .artists__link:hover {
 
 }
+
 /* Testimonials */
 
 .testimonials {
@@ -344,7 +345,7 @@
 .blog__hover--non-hover {
   background-color: #4e4e4e;
   width: 372px;
-  height: 100
+  height: 100px;
 }
 .blog__hover--hover {
   background-color: #4e4e4e;
