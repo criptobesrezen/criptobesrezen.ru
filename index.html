@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CRiPToN iT ltd.</title>
-    <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 <body>
@@ -29,22 +29,33 @@
         </a>
       </div>
     </section>
-<!-- Блок меню -->
-    <nav class="menu">
-      <a href="#" class="menu__item">Home</a>
-      <a href="#" class="menu__item">About us</a>
-      <a href="#" class="menu__item">Artists</a>
-      <a href="#" class="menu__item">Testimonials</a>
-      <a href="#" class="menu__item">Gallary</a>
-      <a href="#" class="menu__item">Blog</a>
-      <a href="#" class="menu__item">Contact us</a>
-    </nav>
   </div>
-    <div class="slider">
-      <div class="slider__item">
-        <img src="./img/tatu-slider.jpg" alt="Tattoo Slider" class="slider__img">
-      </div>
-    </div>
+
+<!-- Блок меню -->
+<div class="wrapper">
+  <nav class="menu">
+    <a href="#" class="menu__item">Home</a>
+    <a href="#" class="menu__item">About us</a>
+    <a href="#" class="menu__item">Artists</a>
+    <a href="#" class="menu__item">Testimonials</a>
+    <a href="#" class="menu__item">Gallary</a>
+    <a href="#" class="menu__item">Blog</a>
+    <a href="#" class="menu__item">Contact us</a>
+  </nav>
+</div>
+
+<!-- Слайдер -->
+
+<div class="slider">
+  <div class="slider__item">
+    <img src="./img/slider/tatu-slider.jpg" alt="Tattoo Slider" class="slider__img">
+    <img src="./img/slider/Boops-Tattoo.jpg" alt="Boops-Tattoo" class="slider__img">
+    <img src="./img/slider/Fish-and-Lotus.jpg" alt="Fish and Lotus" class="slider__img">
+    <img src="./img/slider/skull-strings.jpg" alt="Skull Strings" class="slider__img">
+    <img src="./img/slider/snaks and eagle.jpg" alt="Snaks and Eagle" class="slider__img">
+  </div>
+</div>
+
 <!-- Блок интро -->
     <div class="intro">
       <div class="wrapper">
@@ -90,7 +101,7 @@
 <div class="artists">
   <div class="wrapper">
     <div class="artists__inside">
-      <div class="artists__box">
+      <div class="artists__box artists__box--text">
         <div class="artists__block">
           <div class="artists__text">
             <h1 class="artists__heading-bold">Artists</h1>
@@ -109,26 +120,32 @@
             <a class="artists__link" href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
           </div>
         </div>
-        <div class="artists__block">
+        <div class="artists__block artists__block--slider">
+          <img class="artists__img" src="./img/artists/Denis.jpg" alt="Denis lvl Yoda">
           <img class="artists__img" src="./img/artists/Roman.jpg" alt="artists img">
+          <img class="artists__img" src="./img/artists/Anatoliy.jpg" alt="artists img">
+          <img class="artists__img" src="./img/artists/Marya.jpg" alt="artists img">
+          <img class="artists__img" src="./img/artists/Anastasia.jpg" alt="artists img">
+          <img class="artists__img" src="./img/artists/Anastasia.jpg" alt="artists img">
         </div>
       </div>
-      <div class="artists__box">
-        <div class="artists__item">
+      <div class="artists__box artists__box--slider">
+        <!-- <div class="artists__item"> -->
           <img class="artists__img--thumbnail" src="./img/artists/Denis.jpg" alt="Denis lvl Yoda">
-        </div>
-        <div class="artists__item">
+        <!-- </div> -->
+        <!-- <div class="artists__item"> -->
           <img class="artists__img--thumbnail" src="./img/artists/Roman.jpg" alt="Roman lvl Student">
-        </div>
-        <div class="artists__item">
+        <!-- </div> -->
+        <!-- <div class="artists__item"> -->
           <img class="artists__img--thumbnail" src="./img/artists/Anatoliy.jpg" alt="Anatoliy lvl Yoda">
-        </div>
-        <div class="artists__item">
+        <!-- </div> -->
+        <!-- <div class="artists__item"> -->
           <img class="artists__img--thumbnail" src="./img/artists/Marya.jpg" alt="Marya lvl Student">
-        </div>
-        <div class="artists__item">
+        <!-- </div> -->
+        <!-- <div class="artists__item"> -->
           <img class="artists__img--thumbnail" src="./img/artists/Anastasia.jpg" alt="Anastasia lvl Co-Worker">
-        </div>
+          <img class="artists__img--thumbnail" src="./img/artists/Anastasia.jpg" alt="Anastasia lvl Co-Worker">
+        <!-- </div> -->
       </div>
     </div>
   </div>
@@ -152,7 +169,7 @@
 <div class="gallery">
   <div class="wrapper">
     <div class="gallery__inside">
-      <div class="gallery__box">
+      <div class="gallery__text">
         <h1 class="gallery__heading-bold">Gallery</h1>
         <h2 class="gallery__heading-thin">Our latest tattoos</h2>
         <p class="gallery__paragraph">
@@ -160,18 +177,30 @@
         </p>
       </div>
       <div class="gallery__box">
-        <div class="gallery__line">
-          <img class="gallery__thumb" src="./img/gallery/crown.jpg" alt="Тату короны">
-          <img class="gallery__thumb" src="./img/gallery/fire-tattoo.jpg" alt="Огненное тату">
-          <img class="gallery__thumb" src="./img/gallery/flower.jpg" alt="Цветок тату">
-          <img class="gallery__thumb" src="./img/gallery/half-sleeve-tribal.jpg" alt="Тату на пол верха">
-        </div>
-        <div class="gallery__line">
-          <img class="gallery__thumb" src="./img/gallery/i.jpg" alt="iTattoo">
-          <img class="gallery__thumb" src="./img/gallery/Lion-Face.jpg" alt="Морда льва">
-          <img class="gallery__thumb" src="./img/gallery/tatu-hnoy-2.jpg" alt="Тату хной">
-          <img class="gallery__thumb" src="./img/gallery/wolf-tattoo.jpg" alt="Тату волка">
-        </div>
+          <a href="./img/gallery/crown.jpg">
+            <img class="gallery__thumb" src="./img/gallery/crown.jpg" alt="Тату короны">
+          </a>
+          <a href="./img/gallery/fire-tattoo.jpg">
+            <img class="gallery__thumb" src="./img/gallery/fire-tattoo.jpg" alt="Огненное тату">
+          </a>
+          <a href="./img/gallery/flower.jpg">
+            <img class="gallery__thumb" src="./img/gallery/flower.jpg" alt="Цветок тату">
+          </a>
+          <a href="./img/gallery/half-sleeve-tribal.jpg">
+            <img class="gallery__thumb" src="./img/gallery/half-sleeve-tribal.jpg" alt="Тату на пол верха">
+          </a>
+          <a href="./img/gallery/i.jpg">
+            <img class="gallery__thumb" src="./img/gallery/i.jpg" alt="iTattoo">
+          </a>
+          <a href="./img/gallery/Lion-Face.jpg">
+            <img class="gallery__thumb" src="./img/gallery/Lion-Face.jpg" alt="Морда льва">
+          </a>
+          <a href="./img/gallery/tatu-hnoy-2.jpg">
+            <img class="gallery__thumb" src="./img/gallery/tatu-hnoy-2.jpg" alt="Тату хной">
+          </a>
+          <a href="./img/gallery/wolf-tattoo.jpg">
+            <img class="gallery__thumb" src="./img/gallery/wolf-tattoo.jpg" alt="Тату волка">
+          </a>
       </div>
     </div>
   </div>
@@ -253,29 +282,30 @@
 
 </div>
 <!-- Блок подвал -->
-    <footer class="footer">
-      <div class="footer__inside">
-        <div class="wrapper">
-          <section class="footer__section">
-            <div class="footer__logo">
-                <a class="footer__link" href="#">
-                  <img class="footer__logo--img" src="./img/logo.png" alt="Tattoo Logo" title="Переход на главную" height="177px">
-                </a>
-            </div>
-            <div class="footer__copyright">
-              <p>© 2015 Tattoo Studio (registered in England: 8000000). All Rights Reserved.</p>
-              <br />
-              <p>Designed by <a class="footer__link" href="#">RobbyDesigns.com</a>      Development by LoremIpsum.com      Powered by Wordpress</p>
-            </div>
-            <div class="footer__socials">
-              <a class="footer__link" href="#" class="social-facebook">
-                <img src="./img/fb icon.png" alt="Facebook logo" title="Перейти на Facebook">
-              </a>
-            </div>
-          </section>
+<footer class="footer">
+  <div class="footer__inside">
+    <div class="wrapper">
+      <section class="footer__section">
+        <div class="footer__logo">
+            <a class="footer__link" href="#">
+              <img class="footer__logo--img" src="./img/logo.png" alt="Tattoo Logo" title="Переход на главную" height="177px">
+            </a>
         </div>
-      </div>
-    </footer>
+        <div class="footer__copyright">
+          <p>© 2015 Tattoo Studio (registered in England: 8000000). All Rights Reserved.</p>
+          <br />
+          <p>Designed by <a class="footer__link" href="#">RobbyDesigns.com</a>      Development by LoremIpsum.com      Powered by Wordpress</p>
+        </div>
+        <div class="footer__socials">
+          <a class="footer__link" href="#" class="social-facebook">
+            <img src="./img/fb icon.png" alt="Facebook logo" title="Перейти на Facebook">
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</footer>
 </header>
+<script src="./src/js/scripts.js"></script>
 </body>
 </html>
