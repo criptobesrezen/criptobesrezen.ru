@@ -4,10 +4,14 @@
   position: relative;
   z-index: 400;
   margin-top: -40px;
+  transform: skewY(-3.6deg);
+  overflow: hidden;
   &__inside {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    transform: skewY(3.6deg);
+    margin-bottom: -10px;
   }
   &__box {
   }
@@ -43,10 +47,5 @@
     font-size: 24px;
     font-weight: 200;
     color: #191919;
-  }
-  &__footer {
-    transform: skewY(-3.6deg);
-    overflow: hidden;
-    height: 100px;
   }
 }
