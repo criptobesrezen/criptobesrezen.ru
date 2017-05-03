@@ -4,13 +4,20 @@
   transform: skewY(3.6deg);
   position: relative;
   z-index: 999;
-  margin-top: -40px;
+  height: 650px;
+
+
   &__inside {
     transform: skewY(-3.6deg);
   }
+
   &__box {
-    padding: 100px 0 150px;
+    &--news {
+      display: flex;
+      justify-content: space-between;
+    }
   }
+
   &__heading {
     text-align: center;
     &--bold {
@@ -27,27 +34,29 @@
     }
   }
   &__img {
-    display: flex;
-    justify-content: space-between;
     &--thumb {
       width: 372px;
       height: 300px;
     }
   }
   &__block {
-    display: flex;
-    justify-content: space-between;
-    &--hover {
-      background-color: #191919;
-      width: 372px;
-      height: 300px;
-      opacity: 0.8;
-      margin-top: -300px;
-    }
+    width: 372px;
+    height: 300px;
+    overflow: hidden;
   }
 
-  .blog__text {
-    
+  .blog__content {
+    padding: 10px;
+    background-color: #191919;
+    color: #dfdfdf;
+    opacity: 0.8;
+    position: absolute;
+    top: ~"calc(100% - 60px)";
+    width: 372px;
+    height: 300px;
+    transition: top .3s linear;
+
+
     &--heading {
       color: #dfdfdf;
       font-size: 16px;
