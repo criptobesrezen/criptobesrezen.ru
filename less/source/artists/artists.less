@@ -1,68 +1,135 @@
-/* Artists */
+/* Мастерский блок */
 
 .artists {
-  height: 780px;
-  background: #FFF;
   position: relative;
-  z-index: 990;
-  overflow: hidden;
-  &__inside {
-    justify-content: space-between;
-  }
-  &__box {
-    &--text {
-      display: flex;
-      justify-content: space-between;
-    }
-    &--slider {
+  top: -60px;
 
-    }
+  &__inside {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 -15px;
   }
-  &__block {
-    width: 50%;
-    padding: -40px 15px;
-    &--slider {
-      height: 585px;
-    }
+
+  &__block-left,
+  &__block-right {
+      width: 50%;
+      height: 498px;
+      overflow: hidden;
+      padding: 0 15px;
   }
-  &__item {
+
+  &__block-left {
+      padding-top: 125px;
+      padding-right: 60px;
   }
-  &__img {
-    width: 585px;
-    height: 585px;
+
+  &__slider {
+      &--bottom {
+          display: flex;
+          flex-flow: row nowrap;
+          overflow: hidden;
+          height: 234px;
+      }
   }
-  &__img--thumbnail {
-    width: 234px;
-    height: 234px;
+
+  &__slider-item {
+      position: relative;
+
+      &--x5 {
+          width: 20%;
+          z-index: 1;
+
+          &:hover {
+              z-index: 2;
+              box-shadow: 3px 0 10px 0 #191919;
+
+              .artists__slider-content {
+                  opacity: 1;
+              }
+          }
+      }
+
+      &--x1 {
+          width: 100%;
+      }
   }
+
+  &__slider-content {
+      font-family: 'Great Vibes', cursive;
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 40px;
+      text-decoration: none;
+      padding: 46px 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      color: #fff;
+      background: rgba(0, 0, 0, .5);
+      opacity: 0;
+  }
+
+  &__slider-prev {
+      position: absolute;
+      top: 56px;
+      left: 15px;
+      font-size: 48px;
+      color: #fff;
+      z-index: 10;
+      cursor: pointer;
+  }
+
+  &__slider-next {
+      position: absolute;
+      top: 56px;
+      right: 15px;
+      font-size: 48px;
+      color: #fff;
+      z-index: 10;
+      cursor: pointer;
+  }
+
+
+  // Текст контента
+
   &__heading-bold {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 48px;
     color: #191919;
   }
+
   &__heading-thin {
     text-transform: uppercase;
     font-weight: 200;
     font-size: 48px;
     color: #191919;
   }
+
   &__paragraph {
     text-decoration: none;
     color: #888;
     font-size: 15px;
     padding-right: 100px;
   }
+
   &__text {
     padding-top: 200px;
   }
+
   &__socials {
     display: flex;
   }
+
   &__link {
     padding-right: 36px;
     color: #888;
   }
+
   &__link:hover {
+
   }
 }
