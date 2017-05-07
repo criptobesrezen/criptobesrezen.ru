@@ -13,7 +13,11 @@ $(document).ready(function () {
       dots: true,
       dotsClass: 'slider__dots'
     });
-    $(".gallery__box").lightGallery();
+
+    // Галерея
+    $(".gallery__box").lightGallery({
+      thumbnail:true
+    });
 
     // Слайдер "Artists"
     $('.artists__slider--top').slick({
